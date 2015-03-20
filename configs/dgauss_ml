@@ -1,0 +1,40 @@
+#======mode======
+interactive 1
+autofocus 0
+microlens 1
+
+#======windows configuration======
+window1_h   480   #lens view
+window1_w   640
+window2_h   800   #image view
+window2_w   800
+window2_array_h   3200 # array point
+image_x     1
+image_y     1
+sensor_w    23.4 # sensor width  mm
+sensor_h    15.6 # sensor height mm
+samples1_num 32  # sample number for lens view 
+samples2_num 63  # sample number for image view
+
+#======optics configuration========
+lens_file          ./configs/lenses/dgauss.50mm.dat
+pt_x 0
+pt_y 0#100#-60
+pt_z 2000
+pt_x_num 11#odd number
+pt_y_num 7 #odd number
+pt_x_w   80
+pt_y_w   80
+pt_z_d   1000
+image_plane_pos_z -69.513#-47.7#-55.6#-68.1
+image_plane_pos_h 0#9
+object_plane_pos 2000
+
+#======microlens configuration======
+ml_r 0.1# microlens radius
+ml_f 0.213# microlens focal length
+ml_w 200# microlens width 
+ml_h 200# microlens height
+ml_z -69.3   # microlens z axis
+
+

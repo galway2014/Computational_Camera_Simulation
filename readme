@@ -1,0 +1,55 @@
+command ./lens -config ./configs/test
+
+
+main=================  the main body
+def.h
+display_opengl.h=====  basic opengl drawing
+file_parse.h=========  read the configuration file
+geometry.h  =========  ray geometry
+image_view.h=========  image window
+lens_view.h =========  lens window
+lens_model.h=========  thick lens model including lens intrinsic calculation
+					   draw intrinsic properties
+microlens_model.h====  microlens model
+ray_trace.h =========  trace ray for lens window and image window
+transform.cpp========  matrix transfomration
+
+==========================================================================
+GUI KEY BOARD MAP
+
+ESC: quit
+
+*****Lens Window*****
+b  : background
+s  : save
+,  : stop +
+.  : stop -
+o  : image plane + 0.1
+p  : image plane - 0.1
+k  : image plane + 0.02
+l  : image plane - 0.02
+u  : object plane + 5
+i  : object plane - 5 
+h  : object plane + 0.5
+j  : object plane - 0.5
+t  : microlens array plane - 0.1
+y  : microlens array plane + 0.1 
+
+*****Image Window*****
+b  : background
+m  : mode
+z  : save
+=  : zoom out
+-  : zomm in
+a  : image move left
+s  : image move right
+d  : image move up
+f  : image move down
+o  : image plane + 0.1
+p  : image plane - 0.1 
+k  : image plane + 0.02
+l  : image plane - 0.02
+
+
+
+

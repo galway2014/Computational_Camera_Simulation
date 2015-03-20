@@ -1,0 +1,8 @@
+lens_file          ./configs/lenses/telephoto.250mm.dat
+compo_file         ./configs/com_co/ml.dat
+display_file       ./configs/display/config
+optics_file        ./configs/optics/config
+#dgauss.50mm.dat
+#fisheye.10mm.dat
+#wide.22mm.dat
+#telephoto.250mm.dat
