@@ -1,4 +1,4 @@
-command ./lens -config ./configs/dgauss
+command ./lens -config ./configs/test
 
 
 main=================  the main body
